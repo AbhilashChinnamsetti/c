@@ -11,7 +11,6 @@ int main(void) {
   for (i = 0; i < NUM_RATION_CARDS; i++) {
     ration_cards[i] = (i + 1) * 2;
   }
-
   // Initialize array of card holder names
   for (i = 0; i < NUM_RATION_CARDS; i++) {
     sprintf(card_holder_names[i], "Card holder %d", i + 1);
